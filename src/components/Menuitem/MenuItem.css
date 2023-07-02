@@ -1,0 +1,35 @@
+.app__menuItem {
+    margin: 1.5rem 0;
+}
+.app__menuItem-title {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    justify-content: end;
+}
+.app__menuItem-title-sep{
+    min-width: 119px;
+    height: 1px;  
+    background-color: #fff;
+}
+.app__menuItem-title .title{
+    font-size: 23px;
+    font-weight: 700;
+    line-height: 130%;
+    letter-spacing: 0.92px;
+    margin-right: auto;
+}
+.app__menuItem-title .price{
+    color: #fff;
+    font-size: 23px;
+    font-weight: 700;
+    line-height: 130%;
+    letter-spacing: 0.92px;
+}
+.app__menuItem .subtext{
+    color: var(--color-grey);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 175%;
+    letter-spacing: 0.64px;
+}
