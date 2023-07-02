@@ -1,73 +1,38 @@
-* {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-    scroll-behavior: smooth;
+.App {
+  text-align: center;
 }
 
-body {
-    background: var(--color-bg);
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
 }
 
-a{
-    color: unset;
-    text-decoration: none;
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
 }
 
-.gradient_bg{
-    /* ff 3.6+ */
-    background: -moz-radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 100%);
-
-    /* safari 5.1+,chrome 10+ */
-    background: -webkit-radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 100%);
-
-    /* opera 11.10+ */
-    background: -o-radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 100%);
-
-    /* ie 10+ */
-    background: -ms-radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 100%);
-
-    /* global 92%+ browsers support */
-    background: radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 100%);
-}
-.gradient_text{
-    background: var(--gradient-text);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-.gradient_bar {
-    width: 38px;
-    height: 3px;
-    background: var(--gradient-bar);
-    box-shadow: 0 4px 4px rgba(0, 0, 0, .25);
-    margin-bottom: .25rem;
-}
-.section_margin{
-    margin: 4rem 6rem;
-}
-.section_padding{
-    padding: 4rem 6rem;
-}
-.scale-up-center{
-    animation:scale-up-center .4s cubic-bezier(.39,.575,.565,1.000) both
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
 }
 
- @keyframes scale-up-center{0%{transform:scale(.5)}100%{transform:scale(1)}}
+.App-link {
+  color: #61dafb;
+}
 
- @media all and (max-width: 700px){
-    .section_margin{
-        margin: 4rem;
-    }
-    .section_padding{
-        padding: 4rem;
-    }
- }
- @media all and (max-width: 550px){
-    .section_margin{
-        margin: 2rem;
-    }
-    .section_padding{
-        padding: 2rem;
-    }
- }
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
