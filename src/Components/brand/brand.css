@@ -1,0 +1,7 @@
+.gpt3_brands {
+    display:  flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 46.483px;
+    justify-content: center;
+}

@@ -1,0 +1,99 @@
+
+.gpt3_footer{
+    background:var(--color-footer);
+    padding-bottom: 1rem;
+}
+.gpt3_footer-menu {
+    display:flex;
+    margin: 5rem 0;
+}
+.gpt3_footer-menu-heading {
+    width:40%;
+}
+.gpt3_footer a, .gpt3_footer p, .gpt3_footer h5, .gpt3_footer button{
+    color:#fff;
+    font-family: var(--font-family);
+}
+.gpt3_footer-menu-links, .gpt3_footer-menu-company, .gpt3_footer-menu-get_in_touch {
+    width:20%
+}
+.gpt3_footer h2 {
+    text-align: center;
+    font-size: 62px;
+    font-family: var(--font-family);
+    font-weight: 800;
+    line-height: 75px;
+    letter-spacing: -2.48px;
+    margin: 2rem 0;
+}
+.gpt3_footer .button-wrapper{
+    text-align: center;
+    margin: 2rem 0;
+}
+.gpt3_footer button {
+    color: #FFF;
+    font-size: 18px;
+    font-family: var(--font-family);
+    font-weight: 400;
+    padding: 1rem 2rem;
+    margin: 1rem auto;
+    background-color: transparent;
+    border: 1px solid #fff;
+    cursor: pointer;
+}
+.gpt3_footer-menu-heading p {
+    max-width: 185px;
+    color: #FFF;
+    font-size: 12px;
+    font-weight: 400;
+}
+.gpt3_footer-menu-heading img {
+    margin: 0 0 1rem 0;
+}
+.gpt3_footer-copyright {
+    margin-top: 5rem;
+}
+.gpt3_footer-copyright p {
+    text-align: center;
+    font-size: 12px;
+    font-weight: 400;
+}
+.gpt3_footer h5 {
+    font-size: 18px;
+    font-weight: 700;
+}
+.gpt3_footer ul {
+    list-style: none;
+}
+.gpt3_footer li {
+    margin: 2rem 0;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+}
+@media all and (max-width:800px) {
+    .gpt3_footer h2{
+        font-size: 36px;
+        line-height: 44px;
+    }
+    .gpt3_footer-menu {
+        flex-wrap: wrap;
+        margin: 1rem 0;
+        justify-content: space-between;
+    }
+    .gpt3_footer-menu-heading {
+        margin-bottom: 2rem;
+    }
+    .gpt3_footer-menu > div{
+        width: 45%;
+    }
+    .gpt3_footer-menu li, .gpt3_footer-menu-heading p{
+        font-size: 10px;
+        margin: 1rem 0;
+    }
+}
+@media all and (max-width:400px) {
+    .gpt3_footer-menu img {
+        max-width : 100px;
+    }
+}

@@ -1,22 +1,24 @@
-import React from 'react';
+import React from 'react'
+import { Blog, Footer, Possibility, Features, Header, WhatGPT3 } from './Containers'
+import { CTA, Brand, Navbar } from './Components'
 
-import { AboutUs, Chef, FindUs, Footer, Gallery, Header, Intro, Laurels, SpecialMenu } from './container';
-import { Navbar } from './components';
-import './App.css';
 
-const App = () => (
-  <div>
-    <Navbar />
-    <Header />
-    <AboutUs />
-    <SpecialMenu />
-    <Chef />
-    <Intro />
-    <Laurels />
-    <Gallery />
-    <FindUs />
-    <Footer />
-  </div>
-);
+const App = () => {
+  return (
+    <div className='App gradient_bg'>
+      <div>
+        <Navbar />
+        <Header />
+      </div>
+      <Brand />
+      <WhatGPT3 />
+      <Features />
+      <Possibility />
+      <CTA />
+      <Blog />
+      <Footer />
+    </div>
+  )
+}
 
-export default App;
+export default App
