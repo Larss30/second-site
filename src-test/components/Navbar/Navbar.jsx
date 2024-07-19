@@ -34,14 +34,14 @@ const Navbar = () => {
       <ul className='app__navbar-links'>
         {
           navbarMenu.map((item, index) => 
-            <li className='p__opensans' key={item.menuText + index}><a href={item.menuLink}>{item.menuText}</a></li>
+            <li className='p__paragraph_font' key={item.menuText + index}><a href={item.menuLink}>{item.menuText}</a></li>
           )
         }
       </ul>
       <div className='app__navbar-login'>
-        <a href='#login' className='p__opensans'>Login | Register</a>
+        <a href='#login' className='p__paragraph_font'>Login | Register</a>
         <div />
-        <a href='#book' className='p__opensans'>Book Table</a>
+        <a href='#book' className='p__paragraph_font'>Book Table</a>
       </div>
       <div className='app__navbar-smallscreen'>
         <GiHamburgerMenu color="#fff" fontSize={27} onClick={() => setToggleMenu(true)}/>
@@ -51,7 +51,7 @@ const Navbar = () => {
             <ul className='app__navbar-smallscreen__links'>
             {
               navbarMenu.map((item, index) => 
-                <li className='p__opensans' key={item.menuText + index}><a href={item.menuLink}>{item.menuText}</a></li>
+                <li className='p__paragraph_font' key={item.menuText + index}><a href={item.menuLink}>{item.menuText}</a></li>
               )
             }
             </ul>

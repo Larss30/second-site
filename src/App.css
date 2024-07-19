@@ -49,7 +49,10 @@
 }
 
 .app__wrapper_img img {
-  width: 80%;
+  width: 50%;
+  border-radius: 100%;
+  padding: 10px;
+  background-color: #DCCA87;
 }
 
 .custom__button {
@@ -78,7 +81,7 @@
   font-size: 23px;
 }
 
-.p__opensans {
+.p__paragraph_font {
   font-family: var(--font-alt);
   color: var(--color-white);
   font-weight: 400;
@@ -97,8 +100,10 @@
   text-transform: capitalize;
 }
 
-.spoon__img {
-  width: 45px;
+.waves__img {
+  width: 90px;
+  height: 30px;
+
 }
 
 @media screen and (min-width: 2000px) {
@@ -108,7 +113,7 @@
     line-height: 67px;
   }
 
-  .p__opensans {
+  .p__paragraph_font {
     font-size: 30px;
     line-height: 50px;
   }
@@ -156,13 +161,13 @@
     font-size: 21px;
   }
 
-  .p__opensans {
+  .p__paragraph_font {
     font-size: 14px;
   }
 }
 
 @media screen and (max-width: 450px) {
-  .p__opensans {
+  .p__paragraph_font {
     font-size: 12px;
   }
 

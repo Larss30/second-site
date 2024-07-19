@@ -7,10 +7,17 @@
     letter-spacing: 0.04em;
     text-transform: uppercase;
     line-height: 117px;
-    font-size: 90px;
+    font-size: 72px;
+}
+.banner__buttons {
+    display: flex;
+    gap: 1em;
 }
 .app__header-img {
     width: 80%;
+}
+.app__wrapper.custom__wrapper{
+    min-height: 70vh;
 }
 @media all and (max-width: 650px){
     .app__header-h1{

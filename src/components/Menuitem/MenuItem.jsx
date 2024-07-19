@@ -9,7 +9,7 @@ const MenuItem = ({title, price, subtext}) => (
       <div className='app__menuItem-title-sep'/>
       <h5 className='price headtext__cormorant'>{price}</h5>
     </div>
-    <p className='p__opensans subtext'>{subtext}</p>
+    <p className='p__paragraph_font subtext'>{subtext}</p>
     
   </div>
 );
