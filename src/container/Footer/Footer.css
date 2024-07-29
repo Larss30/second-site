@@ -1,5 +1,5 @@
-.mail__icon, .phone__icon{
-    max-height: 150px;
+.mail__icon, .phone__icon, .skype__icon{
+    max-height: 120px;
 }
 .contact_detail_item{
     text-transform: lowercase;
@@ -7,4 +7,5 @@
     align-items: center;
     gap: 1em;
     margin: .5em 0;
+    font-size: 36px
 }

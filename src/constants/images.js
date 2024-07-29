@@ -41,7 +41,9 @@ import wms_prot2 from '../assets/WMS_app_prot2.png';
 import mail from '../assets/mail.png';
 import phone from '../assets/phone.png';
 import skype from '../assets/skype.png';
-import resume from '../assets/resume.pdf';
+import resume_docx from '../assets/resume.docx';
+import resume_pdf from '../assets/resume.pdf';
+
 
 export default {
   bg,
@@ -87,5 +89,6 @@ export default {
   mail,
   phone,
   skype,
-  resume
+  resume_docx,
+  resume_pdf
 };

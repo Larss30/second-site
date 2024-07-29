@@ -17,7 +17,7 @@ const Footer = () => (
         <img src={images.phone} alt="phone image" className="phone__icon" /> +63 915 818 9236
       </a>
       <a href="https://join.skype.com/invite/phchWcPrp5Os" className="contact_detail_item" style={{textTransform:'capitalize'}}>
-        <img src={images.skype} alt="phone image" className="phone__icon"/> Skype: Larence Arroz
+        <img src={images.skype} alt="phone image" className="skype__icon"/> Skype: Larence Arroz
       </a>
     </h3>
   </div>
