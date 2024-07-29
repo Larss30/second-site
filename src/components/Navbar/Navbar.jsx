@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import "./Navbar.css";
-import images from "../../constants/images";
 
 const navbarMenu = [
   {
@@ -17,7 +16,7 @@ const navbarMenu = [
   },
   {
     menuText: "Projects",
-    menuLink: "#landing",
+    menuLink: "#projects",
   },
 ];
 
@@ -35,8 +34,7 @@ const Navbar = () => {
         ))}
       </ul>
       <div className="app__navbar-login">
-        <button type='button' className='custom__button'>Contact Me</button>
-        <a className="btn" href="mailto:larencearroz@gmail.com">Contact Me</a>
+      <a href="#contact" type='button' className='custom__button'>Contact Me</a>
       </div>
     </nav>
   );

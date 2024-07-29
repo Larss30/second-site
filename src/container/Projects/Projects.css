@@ -1,0 +1,17 @@
+.preview__img{
+    max-width: 80%;
+}
+#projects{
+    gap: 5em !important;
+}
+.app__aboutus-projects{
+    flex-direction: column;
+    gap: 8em;
+    flex-wrap: wrap;
+}
+.app__aboutus-projects__grid-project__item{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3em;
+}

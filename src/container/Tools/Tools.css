@@ -1,0 +1,40 @@
+.app__aboutus{
+    min-height: 750px;
+}
+.flex__column{
+    flex-direction: column;
+    gap: 5em;
+}
+.app__aboutus-tools__grid{
+    gap: 3em;
+    flex-wrap: wrap;
+}
+.app__aboutus-tools__grid-tool__item{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    align-items: center;
+}
+.headtext__white{
+    font-family: var(--font-base);
+    color: var(--color-white);
+    font-size: 32px;
+    line-height: 48px;
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
+}
+.tool__img{
+    width: 200px;
+}
+.headtext__white__large{
+    font-family: var(--font-base);
+    color: var(--color-white);
+    font-size: 48px;
+    line-height: 83.2px;
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    gap: .25em
+}

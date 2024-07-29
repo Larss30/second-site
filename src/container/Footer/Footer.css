@@ -1,0 +1,10 @@
+.mail__icon, .phone__icon{
+    max-height: 150px;
+}
+.contact_detail_item{
+    text-transform: lowercase;
+    display: flex;
+    align-items: center;
+    gap: 1em;
+    margin: .5em 0;
+}

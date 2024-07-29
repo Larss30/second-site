@@ -20,6 +20,28 @@ import award05 from '../assets/award05.png';
 import sign from '../assets/sign.png';
 import quote from '../assets/quote.png';
 import gericht from '../assets/gericht.png';
+import wordpress from '../assets/wordpress.png';
+import react from '../assets/react.png';
+import javascript from '../assets/javascript.png';
+import php from '../assets/php.png';
+import woocommerce from '../assets/woocommerce.png';
+import acf from '../assets/acf.png';
+import elementor from '../assets/elementor.png';
+import cpanel from '../assets/cpanel.png';
+import jquery from '../assets/jquery.png';
+import zapier from '../assets/zapier.png';
+import bootstrap from '../assets/bootstrap.png';
+import ionic from '../assets/ionic.png';
+import ais_national_preview from '../assets/ais_national_preview.jpg';
+import ais_national from '../assets/ais_national.png';
+import ais_elevate_preview from '../assets/ais_elevate_preview.jpg';
+import ais_elevate from '../assets/ais_elevate.png';
+import wms_prot1 from '../assets/WMS_app_prot1.png';
+import wms_prot2 from '../assets/WMS_app_prot2.png';
+import mail from '../assets/mail.png';
+import phone from '../assets/phone.png';
+import skype from '../assets/skype.png';
+
 
 export default {
   bg,
@@ -44,4 +66,25 @@ export default {
   sign,
   quote,
   gericht,
+  react,
+  wordpress,
+  javascript,
+  php,
+  woocommerce,
+  acf,
+  elementor,
+  cpanel,
+  jquery,
+  zapier,
+  bootstrap,
+  ionic,
+  ais_national_preview,
+  ais_national,
+  ais_elevate_preview,
+  ais_elevate,
+  wms_prot1,
+  wms_prot2,
+  mail,
+  phone,
+  skype
 };

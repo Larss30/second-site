@@ -1,21 +1,13 @@
-import AboutUs from './AboutUs/AboutUs';
-import Chef from './Chef/Chef';
-import FindUs from './Findus/FindUs';
+import Skills from './Skills/Skills';
 import Footer from './Footer/Footer';
-import Gallery from './Gallery/Gallery';
 import Header from './Header/Header';
-import Intro from './Intro/Intro';
-import Laurels from './Laurels/Laurels';
-import SpecialMenu from './Menu/SpecialMenu';
+import Tools from './Tools/Tools';
+import Projects from './Projects/Projects';
 
 export {
-  AboutUs,
-  Chef,
-  FindUs,
+  Skills,
   Footer,
-  Gallery,
   Header,
-  Intro,
-  Laurels,
-  SpecialMenu,
+  Tools,
+  Projects,
 };
